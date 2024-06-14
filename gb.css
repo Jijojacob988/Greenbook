@@ -57,9 +57,44 @@ body{
     padding-top: 52px;
 }
 .right-section{
-    width:50%;
-    float: left;
+    width:39%;
+    float: right;
+    padding-top: 42px;
+    padding-right: 12px;
+   
 }
+    
+      
+      .right-section h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .right-section form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .right-section input[type="text"],
+      .right-section input[type="email"],
+      .right-section input[type="password"],
+      .right-section input[type="submit"] {
+        padding: 15px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .right-section input[type="submit"] {
+        background-color: #023621;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .right-section input[type="submit"]:hover {
+        background-color: #07682c;
+      }
+      
+
 .main-body{
     background:linear-gradient(#fff,#98c2a9);
     width: 100%;
@@ -67,8 +102,9 @@ body{
 }
 .image{
     width: 581px;
+    padding: 10px;
 }
 .para{
     font-weight: bold;
-    font-size: 21px;
+    font-size: 23px;
 }
