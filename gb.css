@@ -38,7 +38,7 @@ body{
     color: #fff;
     font-size: 12px;
     text-decoration: none;
-    color: #9cb4d8;
+    color: #8fdbc2;
 }
 .sub-btn{
     background: #03583c;
@@ -49,4 +49,26 @@ body{
 }
 .sub-btn:hover{
     background: #047e2d;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+.right-section{
+    width:50%;
+    float: left;
+}
+.main-body{
+    background:linear-gradient(#fff,#98c2a9);
+    width: 100%;
+    height: 500px;
+}
+.image{
+    width: 581px;
+}
+.para{
+    font-weight: bold;
+    font-size: 21px;
 }
